@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed's Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top mb-5">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mohammed's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div class="container mt-5" id="about">
+        <div class="row">
+            <div class="col-md-6 align-content-center">
+                <h1 class="display-4">Hi😁, I'm Mohammed</h1>
+                <p class="lead my-3">I'm a new CS Grad and software developer based in the Bay Area, passionate about
+                    technology, teamwork, and
+                    solving problems. I am always pushing myself out of my comfort
+                    zone and my goal is to be able to be a fullstack developer that can
+                    also utilize cloud and AI technologies. I am always looking for new opportunities to learn and grow
+                    as a developer.
+                </p>
+                <a href="#contact" class="btn btn-primary my-3">Contact Me</a>
+            </div>
+            <div class="col-md-6">
+                <img src="public/pfp.jpg" class="img-fluid img-thumbnail rounded image-move" alt="Picture of Mohammed">
+            </div>
+        </div>
+    </div>
+    <div class=" my-3 b-example-divider">
+    </div>
+
+    <section id="education" class="container my-5">
+        <div class="row align-items-center" style="text-align: center;">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <div class="mr-3">
+                        <img src="public/sfstate-logo.jpg" alt="San Francisco State University Logo"
+                            class="university-logo">
+                    </div>
+                    <div>
+                        <h3>San Francisco State University</h3>
+                        <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+                        <p><strong>Duration:</strong> September 2020 - May 2024</p>
+                        <p><strong>GPA:</strong> 3.5</p>
+                        <p><strong>Relevant coursework:</strong> Data Structures and Algorithms, Database Management,
+                            Web Development, Software Engineering</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 p-3">
+                <div class="">
+                    <img src="public/code_path_logo.jpg" alt="" style="height: 200px;width: 200px;">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="">
+
+                    <img src="public/CTI-logo-RGB.png" alt="" style="height: 200px;width: 200px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class=" my-3 b-example-divider">
+    </div>
+    <div class="d-flex justify-content-around align-items-center py-5 flex-wrap">
+        <img src="public/html5.svg" class="small-icon" alt="SVG icon">
+        <img src="public/css3.svg" class="small-icon" alt="SVG icon">
+        <img src="public/javascript.svg" class="small-icon" alt="SVG icon">
+        <img src="public/bootstrap.svg" class="small-icon" alt="SVG icon">
+        <img src="public/java.svg" class="small-icon" alt="SVG icon">
+        <img src="public/python.svg" class="small-icon" alt="SVG icon">
+        <img src="public/nodejs.svg" class="small-icon" alt="SVG icon">
+        <img src="public/react.svg" class="small-icon" alt="SVG icon">
+        <img src="public/npm.svg" class="small-icon" alt="SVG icon">
+        <img src="public/mysql.svg" class="small-icon" alt="SVG icon">
+    </div>
+
+
+    <div class=" my-3 b-example-divider" id="experience"></div>
+
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col" style="height: 50%;">
+                <div class="card h-100 shadow" data-bs-toggle="modal" data-bs-target="#gatorGarageModal">
+                    <img src="public/gatorgarageLogo.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Gator Garage Frontend Lead</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Software Engineering Spring'24</h6>
+                        <p class="card-text">
+                            Gator Garage is a web application designed to create a platform for students, faculty, or
+                            anyone with an .sfsu email to buy and sell items within the SFSU community. The application
+                            was built using Bootstrap, EJS, Node.js, Express, and MySQL.
+                        </p>
+                        <div class="mt-auto">
+                            <a href="http://gatorgarage.net" target="_blank" class="btn btn-primary">View Site</a>
+                            <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info">View Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" style="height: 50%;">
+                <div class="card h-100 shadow" data-bs-toggle="modal" data-bs-target="#oedModal">
+                    <img src="public/CodedayxOEDxCTI.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Open Energy Dashboard Software Contributor</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">06/23 - 08/23</h6>
+                        <p class="card-text">
+                            The Open Energy Dashboard (OED) is a web application that provides a platform for users to
+                            visualize and analyze energy data. The application was built using React, Node.js, Express,
+                            and MySQL.
+                        </p>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#oedModal">Learn
+                                More</a>
+                            <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info">View Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow" data-bs-toggle="modal" data-bs-target="#formationModal">
+                    <img src="public/formation-logo.png" alt="Project 3" class="card-img-top" style="height: 43%;">
+                    <div class="card-body border-top">
+                        <h5 class="card-title">Formation Fellowship x Netflix</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">05/23 - 09/23</h6>
+                        <p class="card-text">
+                            Selected for highly-competitive Fellowship for personalized coaching from top-tier software
+                            engineers.
+                        </p>
+                        <div class="">
+                            <a href="https://media.licdn.com/dms/document/media/D562DAQE1d7tXgbR-2A/profile-treasury-document-pdf-analyzed/0/1702782823465?e=1718236800&v=beta&t=ralNjk9mlvcYFyvUqLKAdFDOpOzJSveqB6lAatT1-ns"
+                                target="_blank" class="btn btn-primary">View Certificate</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#formationModal">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow">
+                    <img src="public/java-img.jpeg" alt="Project 4" class="card-img-top img-fluid" style="height: 40%;">
+                    <div class="card-body align-content-center">
+                        <h5 class="card-title">SFSU Undergraduate TA and Mentor</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">01-22 - 05-22</h6>
+                        <p class="card-text">
+                            As an undergraduate TA and mentor for Java Programming, I helped students with their
+                            assignments, projects,
+                            and provided guidance on how to approach problems.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div>
+        <!-- Gator Garage Modal -->
+        <div class="modal fade text-center" id="gatorGarageModal" tabindex="-1" aria-labelledby="gatorGarageModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="gatorGarageModalLabel">Project Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="public/gatorgarageLogo.png" class="img-fluid mb-3" alt="Project 1">
+                        <h5 class="card-title">Gator Garage Frontend Lead</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Software Engineering Spring '24</h6>
+                        <p class="card-text">
+                            Gator Garage is a web application designed to create a platform for students, faculty, or
+                            anyone with an .sfsu email to buy and sell items within the SFSU community. The application
+                            was built using Bootstrap, EJS, Node.js, Express, and MySQL.
+                        </p>
+                        <p class="card-text">
+                            As the Frontend Lead of this project, my responsibilities included selecting the front-end
+                            technologies, designing the user interface, ensuring the application was responsive, and
+                            collaborating closely with backend developers to integrate APIs and ensure seamless
+                            functionality. Throughout the project I also participated in code reviews, pair programming,
+                            and created
+                            and worked on issues on GitHub.
+                        </p>
+                        <div class="mt-4">
+                            <a href="https://gatorgarage.net" class="btn btn-primary" target="_blank">View Site</a>
+                            <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info"
+                                target="_blank">View Repository</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Oed Modal -->
+        <div class="modal fade" id="oedModal" tabindex="-1" aria-labelledby="oedModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="oedModalLabel">Open Energy Dashboard Project Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="public/CodedayxOEDxCTI.png" class="img-fluid mb-3" alt="Project 1">
+                        <h5 class="card-title">Open Energy Dashboard Software Contributor</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">06/23 - 08/23</h6>
+                        <p class="card-text">
+                            The Open Energy Dashboard (OED) is a web application that provides a platform for
+                            organizations to
+                            manage, visualize and analyze their energy data. The application was built using React,
+                            Node.js, Express,
+                            and MySQL.
+                        </p>
+                        <p class="card-text">
+                            As a Software Contributor to this project, I was responsible for developing a new feature
+                            that would allow administrators to create custom checks to ensure data integrity. This
+                            feature was
+                            developed using React, Node.js, and MySQL. I also wrote an article on LinkedIn to share my
+                            experience and the impact of the feature on the project.
+                        </p>
+                        <p class="card-text">
+                            The feature was well-received by the community and was merged into the main branch of the
+                            project. I also received positive feedback from the project maintainer Professor Huss
+                            Lederman and my teammates for
+                            my work on this feature.
+                        </p>
+                        <div class="mt-4">
+                            <a href="https://github.com/OpenEnergyDashboard/OED/pull/989" class="btn btn-info"
+                                target="_blank">View Pull Request</a>
+                            <a href="https://www.linkedin.com/pulse/enhancing-data-integrity-customizable-checks-oed-reading-mohammed-m/?trackingId=FGBz6AEYQkKKs9lQv8HHzw%3D%3D"
+                                class="btn btn-info" target="_blank">Linkedin Article</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Formation Modal -->
+        <div class="modal fade text-center" id="formationModal" tabindex="-1" aria-labelledby="formationModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="formationModalLabel">Formation Fellowship x Netflix</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="public/formation-logo.png" class="img-thumbnail w-50" alt="Project 3">
+                        <h5 class="card-title">Formation Fellowship x Netflix</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">05/23 - 09/23</h6>
+                        <p class="card-text">
+                            Selected for a highly-competitive Fellowship, providing personalized coaching from top-tier
+                            software engineers.
+                        </p>
+                        <p class="card-text">
+                            During this fellowship, I had the opportunity to receive one-on-one coaching and mentorship
+                            from experienced engineers at Netflix,
+                            greatly improving my skills in data structures and algorithms, and gaining invaluable
+                            insights into industry
+                            best practices and expectations.
+                        </p>
+                        <p class="card-text">
+                            Many people have asked me whether the program was worth it, and I can confidently say it
+                            absolutely was. The program provided invaluable learning experiences, and the community of
+                            talented individuals is always ready to help and support one another. I highly recommend
+                            this program to anyone looking to enhance their skills and advance their career. A big
+                            shoutout to the Formation and Netflix teams for this incredible opportunity.
+                        </p>
+                        <div class="mt-4">
+                            <a href="https://media.licdn.com/dms/document/media/D562DAQE1d7tXgbR-2A/profile-treasury-document-pdf-analyzed/0/1702782823465?e=1718236800&v=beta&t=ralNjk9mlvcYFyvUqLKAdFDOpOzJSveqB6lAatT1-ns"
+                                class="btn btn-primary" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class=" my-3 b-example-divider"></div>
+
+    <div class="container my-5" id="contact">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="display-4">Contact Me</h2>
+                <form id="contact-form" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="user-name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="user-email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <div id="thank-you" style="display: none;">
+                    Thank you for contacting me 😊. Expect a reply within 48 hours.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Create responsive map that shows Bay Area -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d635058.1628983817!2d-122.3194245369711!3d37.64808142568015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbdfbfb605cb9%3A0x6b010d3c6b66f4b3!2sAlameda%20County%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1629790699818!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        class="embed-responsive-item"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3">
+        <div class="d-flex justify-content-center">
+            <p>&copy; 2024 Mohammed's Portfolio</p>
+            <div class="mx-3">
+                <a href="https://github.com/codehomie1" target="_blank" rel="noopener noreferrer" class="me-3">
+                    <img src="public/iconmonstr-github-1.svg" alt="GitHub Logo" class="social-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/mohammedm2/" target="_blank" rel="noopener noreferrer">
+                    <img src="public/linkedin_icon.svg" alt="LinkedIn Logo" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "OcgctoYevzOVOvP8X",
+            });
+        })();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

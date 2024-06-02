@@ -1,0 +1,73 @@
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.small-icon {
+    width: 6.5rem;
+    height: 4.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.small-icon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-entry {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.university-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 30rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-subtitle {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    flex-grow: 1;
+  }
+
+  .btn {
+    margin-top: auto;
+  }
+
+  .truncate-height {
+    max-height: 100px; /* Set the maximum height */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Add ellipsis for indication of truncated text */
+    white-space: nowrap; /* Prevent wrapping of text */
+  }
