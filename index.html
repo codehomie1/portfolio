@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top mb-5">
         <div class="container">
@@ -29,12 +28,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-
+    <!-- About Section -->
     <div class="container mt-5" id="about">
         <div class="row">
             <div class="col-md-6 align-content-center">
@@ -55,7 +55,7 @@
     </div>
     <div class=" my-3 b-example-divider">
     </div>
-
+    <!-- Education Section -->
     <section id="education" class="container my-5">
         <div class="row align-items-center" style="text-align: center;">
             <div class="col-md-6">
@@ -87,10 +87,8 @@
             </div>
         </div>
     </section>
-
-
-
     <div class=" my-3 b-example-divider">
+        <!-- Skills Section -->
     </div>
     <div class="d-flex justify-content-around align-items-center py-5 flex-wrap">
         <img src="public/html5.svg" class="small-icon" alt="SVG icon">
@@ -104,10 +102,8 @@
         <img src="public/npm.svg" class="small-icon" alt="SVG icon">
         <img src="public/mysql.svg" class="small-icon" alt="SVG icon">
     </div>
-
-
     <div class=" my-3 b-example-divider" id="experience"></div>
-
+    <!-- Experience Section -->
     <div class="container my-5">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col" style="height: 50%;">
@@ -121,10 +117,10 @@
                             anyone with an .sfsu email to buy and sell items within the SFSU community. The application
                             was built using Bootstrap, EJS, Node.js, Express, and MySQL.
                         </p>
-                        <div class="mt-auto">
-                            <a href="http://gatorgarage.net" target="_blank" class="btn btn-primary">View Site</a>
-                            <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info">View Repository</a>
-                        </div>
+                        <a href="http://gatorgarage.net" target="_blank" class="btn btn-primary">View
+                            Site</a>
+                        <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info mt-1">View
+                            Repository</a>
                     </div>
                 </div>
             </div>
@@ -140,50 +136,48 @@
                             visualize and analyze energy data. The application was built using React, Node.js, Express,
                             and MySQL.
                         </p>
-                        <div class="mt-auto">
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#oedModal">Learn
-                                More</a>
-                            <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info">View Repository</a>
-                        </div>
+
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#oedModal">Learn
+                            More</a>
+                        <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info mt-1">View
+                            Repository</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100 shadow" data-bs-toggle="modal" data-bs-target="#formationModal">
                     <img src="public/formation-logo.png" alt="Project 3" class="card-img-top" style="height: 43%;">
-                    <div class="card-body border-top">
+                    <div class="card-body border-top align-content-center">
                         <h5 class="card-title">Formation Fellowship x Netflix</h5>
                         <h6 class="card-subtitle mb-2 text-muted">05/23 - 09/23</h6>
-                        <p class="card-text">
+                        <p class="card-text mb-2">
                             Selected for highly-competitive Fellowship for personalized coaching from top-tier software
                             engineers.
                         </p>
-                        <div class="">
-                            <a href="https://media.licdn.com/dms/document/media/D562DAQE1d7tXgbR-2A/profile-treasury-document-pdf-analyzed/0/1702782823465?e=1718236800&v=beta&t=ralNjk9mlvcYFyvUqLKAdFDOpOzJSveqB6lAatT1-ns"
-                                target="_blank" class="btn btn-primary">View Certificate</a>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#formationModal">Learn More</a>
-                        </div>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#formationModal">Learn More</a>
+                        <a href="https://media.licdn.com/dms/document/media/D562DAQE1d7tXgbR-2A/profile-treasury-document-pdf-analyzed/0/1702782823465?e=1718236800&v=beta&t=ralNjk9mlvcYFyvUqLKAdFDOpOzJSveqB6lAatT1-ns"
+                            target="_blank" class="btn btn-info mt-1">View Certificate</a>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 shadow">
+                <div class="card h-100 shadow" data-bs-toggle="modal" data-bs-target="#taModal">
                     <img src="public/java-img.jpeg" alt="Project 4" class="card-img-top img-fluid" style="height: 40%;">
                     <div class="card-body align-content-center">
                         <h5 class="card-title">SFSU Undergraduate TA and Mentor</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">01-22 - 05-22</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Spring'22</h6>
                         <p class="card-text">
                             As an undergraduate TA and mentor for Java Programming, I helped students with their
                             assignments, projects,
                             and provided guidance on how to approach problems.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#taModal">Learn
+                            More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Modals -->
     <div>
         <!-- Gator Garage Modal -->
@@ -212,11 +206,9 @@
                             and created
                             and worked on issues on GitHub.
                         </p>
-                        <div class="mt-4">
-                            <a href="https://gatorgarage.net" class="btn btn-primary" target="_blank">View Site</a>
-                            <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info"
-                                target="_blank">View Repository</a>
-                        </div>
+                        <a href="https://gatorgarage.net" class="btn btn-primary mb-2" target="_blank">View Site</a>
+                        <a href="https://github.com/codehomie1/GatorGarage" class="btn btn-info" target="_blank">View
+                            Repository</a>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -225,7 +217,8 @@
             </div>
         </div>
         <!-- Oed Modal -->
-        <div class="modal fade" id="oedModal" tabindex="-1" aria-labelledby="oedModalLabel" aria-hidden="true">
+        <div id="oedModal" tabindex="-1" aria-labelledby="oedModalLabel" aria-modal="true" role="dialog"
+            class="modal fade text-center">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -233,7 +226,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <img src="public/CodedayxOEDxCTI.png" class="img-fluid mb-3" alt="Project 1">
+                        <img src="public/CodedayxOEDxCTI.png" alt="Project 1" class="img-fluid mb-3 w-50">
                         <h5 class="card-title">Open Energy Dashboard Software Contributor</h5>
                         <h6 class="card-subtitle mb-2 text-muted">06/23 - 08/23</h6>
                         <p class="card-text">
@@ -313,10 +306,44 @@
             </div>
         </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="taModal" tabindex="-1" role="dialog" aria-labelledby="taModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="taModal">SFSU Undergraduate TA and Mentor</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="public/java-img.jpeg" alt="Project 4" class="img-fluid mb-3">
+                        <h6 class="text-muted">Spring'22</h6>
+                        <p>
+                            As an undergraduate TA and mentor for Java Programming, I helped students with their
+                            assignments, projects,
+                            and provided guidance on how to approach problems. My role included explaining computer
+                            science
+                            concepts, debugging code, and helping students develop problem-solving strategies using data
+                            structures and algorithms.
+                        </p>
+                        <p>
+                            Additionally, I assisted in grading assignments and provided feedback to help students
+                            improve their coding skills. This experience greatly enchanced my communication skills and
+                            deepened
+                            my understanding of Java programming.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-
     <div class=" my-3 b-example-divider"></div>
-
+    <!-- Contact Section -->
     <div class="container my-5" id="contact">
         <div class="row">
             <div class="col-md-6">
@@ -351,7 +378,7 @@
             </div>
         </div>
     </div>
-
+    <!-- Footer -->
     <footer class="bg-light text-center py-3">
         <div class="d-flex justify-content-center">
             <p>&copy; 2024 Mohammed's Portfolio</p>
@@ -365,7 +392,6 @@
             </div>
         </div>
     </footer>
-
     <script src="index.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
